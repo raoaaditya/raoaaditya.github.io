@@ -38,9 +38,11 @@
     // }
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {"url": "https://raw.githubusercontent.com/raoaaditya/raoaaditya.github.io/test1/building_inventory.csv"},
-  "mark": "circle",
+  "mark": "bar",
+  "width" : 1000,
+  "height" : 300,
   "encoding": {
-    "x": {"field": "Year Constructed", "type": "quantitative"},
+    "x": {"field": "Agency Name", "type": "nominal"},
     "y": {"field": "Square Footage", "type": "quantitative"}
   }
 };
