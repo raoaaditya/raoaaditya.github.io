@@ -9,7 +9,6 @@
       "fontSize": 30,
       "subtitle": "Minimum Square Footage = 65000"    
     },
-    
     "width": 800,
     "height": 800,
     "params": 
@@ -65,7 +64,6 @@
           "value": 400,
           "legend": null
         }
-      
       }
     }
   }
